@@ -26,6 +26,7 @@ public class BaseTest {
 	   driver.manage().window().maximize();
 	   //driver.manage().timeouts().getPageLoadTimeout();
 	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	   System.out.println("window maximized");
 	}
 	   
 	   @BeforeClass
